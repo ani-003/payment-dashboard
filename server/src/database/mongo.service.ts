@@ -8,7 +8,7 @@ export class MongoService implements OnModuleInit {
   public collection: Collection;
 
   async onModuleInit() {
-    const uri = 'mongodb+srv://anirband2003:29YOj0gLth3Uqgak@cluster1.wg3hzdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
+    const uri = '';
     this.client = new MongoClient(uri);
     await this.client.connect();
 
