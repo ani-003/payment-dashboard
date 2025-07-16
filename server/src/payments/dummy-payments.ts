@@ -1,0 +1,41 @@
+export const dummyPayments = [
+  {
+    id: 1,
+    amount: 1200,
+    receiver: 'Anirban',
+    status: 'success',
+    method: 'UPI',
+    createdAt: new Date(),
+  },
+  {
+    id: 2,
+    amount: 700,
+    receiver: 'Ravi',
+    status: 'failed',
+    method: 'Card',
+    createdAt: new Date(),
+  },
+
+    {
+        id: 3,
+        amount: 500,
+        receiver: 'Sita',
+        status: 'pending',
+        method: 'Net Banking',
+        createdAt: new Date(),
+    },
+    {        id: 4,
+        amount: 300,
+        receiver: 'Rahul',
+        status: 'success',
+        method: 'Wallet',
+        createdAt: new Date(),
+    },
+    {        id: 5,
+        amount: 1500,
+        receiver: 'Priya',
+        status: 'failed',
+        method: 'UPI',
+        createdAt: new Date(),
+    }
+];
